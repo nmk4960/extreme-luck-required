@@ -1,0 +1,25 @@
+.body {
+	/* margin-top: auto; */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+.main {
+	/* margin: auto; */
+	margin-left: 20%;
+	width: 50%;
+	border: 3px solid green;
+	padding: 10px;
+	text-align: center;
+	margin-top: 20%;
+	height: 25%;
+}
+
+.button {
+	background-color: #0a0a23;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+}
