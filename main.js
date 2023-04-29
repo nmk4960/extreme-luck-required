@@ -5,11 +5,11 @@ function luck() {
 	if(res === 50) {
 		document.querySelector('button').disabled = true;
 		document.querySelector('button').innerText = "Refresh the page.";
-		res = "yes!";
+		res = "Yes!";
 		var audio = document.getElementById("myAudio");
 		audio.play();
 	}
-	else res = "No!";
+	else res = "No! Total tries:";
 	trys++;
 	document.getElementById("res").innerHTML = res;
 	document.getElementById("trys").innerHTML = trys;
